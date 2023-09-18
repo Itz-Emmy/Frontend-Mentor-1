@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="overlay" id="overlay"></div>
+  <header>
+    <div class="header-logo">
+      <img src="./images/logo.svg" alt="snap logo">
+    </div>
+    <div class="nav-menu">
+      <img src="./images/icon-menu.svg" class="open" alt="hamburger menu">
+      <img src="./images/icon-close-menu.svg" class="close" alt="hamburger close menu">
+    </div>
+    <div class="nav">
+      <div class="navbar">
+        <nav>
+          <ul class="nav-links">
+            <li class="menu-item features">
+              <a href="#">Features</a>
+              <div class="arrow-icons">
+                <img src="./images/icon-arrow-up.svg" alt="arrow up" class="features-active arrow-up">
+                <img src="./images/icon-arrow-down.svg" alt="arrow down" class="features arrow-down">
+              </div>
+              <ul class="submenu features-menu">
+                <li>
+                  <img src="./images/icon-todo.svg" alt="todo list icon">
+                  <a href="#">Todo List</a>
+                </li>
+                <li>
+                  <img src="./images/icon-calendar.svg" alt="calendar icon">
+                  <a href="#">Calendar</a>
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="reminders icon">
+                  <a href="#">Reminders</a>
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" alt="planning icon">
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item company">
+              <a href="#">Company</a>
+              <div class="arrow-icons">
+                <img src="./images/icon-arrow-up.svg" alt="arrow up" class="company-active arrow-up">
+                <img src="./images/icon-arrow-down.svg" alt="arrow down" class="company arrow-down">
+              </div>
+              <ul class="submenu company-menu">
+                <li>
+                  <a href="#">History</a>
+                </li>
+                <li>
+                  <a href="#">Our Team</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#">Careers</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-right">
+        <a href="#">Login</a>
+        <a href="#" class="active-header-right-link">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <h1> Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <a href="#">Learn more</a>
+
+        <div class="hero-left-logos">
+          <img src="./images/client-databiz.svg" alt="databiz logo">
+          <img src="./images/client-audiophile.svg" alt="audiophile logo">
+          <img src="./images/client-meet.svg" alt="meet logo">
+          <img src="./images/client-maker.svg" alt="maker logo">
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="./images/image-hero-desktop.png" alt="hero image" class="hero-desktop">
+        <img src="./images/image-hero-mobile.png" alt="hero image" class="hero-mobile">
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p>Coded by <a href="#">Emmanuel Nereus Agbonyeme</a>.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
