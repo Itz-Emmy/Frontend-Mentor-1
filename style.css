@@ -169,7 +169,7 @@ ul.company-menu {
   font-size: 4.5rem;
   margin-bottom: 1.875rem;
   margin-top: 3.125rem;
-  width: 440px;
+  width: 480px;
 }
 
 .hero-left p {
@@ -180,7 +180,7 @@ ul.company-menu {
 }
 
 .hero-left a {
-  background: var(--color-bg);
+  background: var(--color-black);
   color: var(--color-almost-white);
   padding: 1.25rem 2.5rem;
   border-radius: 15px;
@@ -188,10 +188,7 @@ ul.company-menu {
 
 .hero-left a:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-
-.hero-left a:hover {
-  background: var(--color-bg);
+  background: var(--color-almost-white);
   color: var(--color-black);
   font-weight: bold;
   border: 2px var(--color-black) solid;
