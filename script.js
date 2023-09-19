@@ -17,6 +17,7 @@ openMenu.addEventListener("click", () => {
   openMenu.style.display = "none";
   closeMenu.style.display = "block";
   overlay.style.display = "block";
+  document.body.style.overflow = "hidden";
   menu.style.visibility = "visible";
   menu.style.height = "100%";
 });
@@ -25,8 +26,16 @@ closeMenu.addEventListener("click", () => {
   closeMenu.style.display = "none";
   openMenu.style.display = "block";
   overlay.style.display = "none";
+  document.body.style.overflow = "auto";
   menu.style.visibility = "hidden";
   menu.style.height = "0";
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    overlay.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
 });
 
 const toggleActive = (link, arrowDownIcon, arrowUpIcon, list, menu) => {
